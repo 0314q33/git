@@ -1,0 +1,9 @@
+#%s字符串
+#%d整数
+#%f浮点数
+name='张三'
+age=18
+height=1.8
+print('大家好，我叫%s,今年%d，身高%.1f'%(name,age,height))
+print('大家好，我叫{}，今年{}，身高{}'.format(name,age,height))#.format方法
+print(f'大家好，我叫{name}，今年{age}，身高{height}。')#f-string法
